@@ -1,9 +1,11 @@
-$Source = "C:\Users\김동건\seoja.be\lji"
-$Destination = "dell:C:/seoja.be/lji/"
+$ProjectDir = $PSScriptRoot
 
 Write-Host "Deploying..."
 
-scp -r "$Source\*" $Destination
+& "C:\msys64\usr\bin\bash.exe" -lc @"
+cd '$ProjectDir'
+rsync -av --delete --rsync-path='C:/msys64/usr/bin/rsync.exe' ./lji/ dell:/c/seoja.be/lji/
+"@
 
 if ($LASTEXITCODE -eq 0) {
 	Write-Host "Deployment complete."

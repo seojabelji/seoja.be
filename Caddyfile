@@ -1,0 +1,4 @@
+:8080 {
+    root * C:\Users\김동건\seoja.be\lji
+    file_server
+}

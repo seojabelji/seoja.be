@@ -1,28 +1,74 @@
+header {
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
 body {
-    background-image: url("lji/background.webp");
+    background-image: url("resources/background.webp");
     background-repeat: repeat;
     margin-left: 200px;
     margin-right: 200px;
     font-family: Arial, sans-serif;
-
-    header {
-        background-color: white;
-        text-align: center;
-        border: 1px solid black;
-    }
 }
 
-.title {
-    padding: 10px;
+.banner {
+    padding: 7px;
     text-align: center;
-    background-color: white;
+    background-image: url("resources/header-background.webp");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    background-color: #d5ae75;
+}
+
+.banner img {
+    width: 200px;
+    height: auto;
 }
 
 .navigator {
     padding: 10px;
     text-align: center;
-    background-color: #dddddd;
+    background-color: #6e99c9;
     border-top: 1px solid black;
+}
+
+.navigator {
+    color: white;
+}
+
+.navigator a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigator a:hover {
+    color: white;
+    text-shadow: 0 0 5px white;
+}
+
+.title {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    padding-left: 10px;
+    background-color: #353535;
+}
+
+.title p {
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+
+.textbox {
+    border: 1px solid black;
+    padding-left: 10px;
+    background-color: white;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 700px) {

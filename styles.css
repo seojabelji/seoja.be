@@ -18,7 +18,7 @@ body {
     text-align: center;
     background-image: url("resources/header-background.webp");
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: left center;
     background-size: contain;
     background-color: #d5ae75;
 }

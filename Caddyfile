@@ -1,5 +1,8 @@
 seoja.be, www.seoja.be {
     redir / /lji/home.html 302
+    redir /lji /lji/home.html 302
+    redir /lji/ /lji/home.html 302
+
     root * C:\seoja.be
     file_server
 

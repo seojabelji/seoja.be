@@ -4,6 +4,10 @@ seoja.be, www.seoja.be {
     redir /lji/ /lji/home.html 302
 
     root * C:\seoja.be
+
+    @server path /server /server/*
+    respond @server 404
+
     file_server
 
     handle_errors {
@@ -13,9 +17,4 @@ seoja.be, www.seoja.be {
             file_server
         }
     }
-}
-
-:8080 {
-    root * C:\seoja.be\lji
-    file_server
 }

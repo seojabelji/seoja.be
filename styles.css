@@ -16,10 +16,18 @@ body {
 .banner {
     padding: 7px;
     text-align: center;
-    background-image: url("resources/header-background.webp");
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: contain;
+    background-image:
+            url("resources/header-background.webp"),
+            url("resources/roll.gif");
+    background-repeat:
+            no-repeat,
+            no-repeat;
+    background-position:
+            left center,
+            center center;
+    background-size:
+            contain,
+            3000px auto;
     background-color: #d5ae75;
 }
 

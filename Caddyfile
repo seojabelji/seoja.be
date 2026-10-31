@@ -6,7 +6,7 @@ seoja.be, www.seoja.be {
     root * C:\seoja.be
 
     @server path /server /server/*
-    respond @server 404
+    error @server 404
 
     file_server
 

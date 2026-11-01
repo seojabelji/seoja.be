@@ -8,8 +8,8 @@ header {
 body {
     background-image: url("resources/background.webp");
     background-repeat: repeat;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
     font-family: Arial, sans-serif;
 }
 
@@ -81,7 +81,7 @@ body {
 
 @media (max-width: 700px) {
     body {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 3%;
+        margin-right: 3%;
     }
 }

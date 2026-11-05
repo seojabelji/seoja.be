@@ -6,7 +6,7 @@ header {
 }
 
 body {
-    background-image: url("resources/background.webp");
+    background-image: url("background.webp");
     background-repeat: repeat;
     margin-left: 20%;
     margin-right: 20%;
@@ -17,8 +17,8 @@ body {
     padding: 7px;
     text-align: center;
     background-image:
-            url("resources/header-background.webp"),
-            url("resources/roll.gif");
+            url("header-background.webp"),
+            url("roll.gif");
     background-repeat:
             no-repeat,
             no-repeat;

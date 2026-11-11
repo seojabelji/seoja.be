@@ -2,6 +2,7 @@ header {
     background-color: white;
     text-align: center;
     border: 1px solid black;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -29,7 +30,7 @@ body {
             center center;
     background-size:
             contain,
-            1500px auto;
+            1000px auto;
     background-color: #d5ae75;
 }
 
@@ -39,7 +40,7 @@ body {
 }
 
 .navigator {
-    padding: 10px;
+    padding: 8px;
     text-align: center;
     background-color: #6e99c9;
     border-top: 1px solid black;
@@ -80,6 +81,11 @@ body {
 .box-content {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.box-content p {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 600px) {

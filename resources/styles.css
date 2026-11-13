@@ -65,6 +65,7 @@ body {
     border: 1px solid black;
     background-color: white;
     margin-bottom: 20px;
+    overflow: auto;
 }
 
 .box-title {
@@ -83,9 +84,18 @@ body {
     padding-right: 10px;
 }
 
+.box-content img {
+    float: left;
+    margin-right: 10px;
+}
+
 .box-content p {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.box-content code {
+    font-family: Lucida Console, Monaco, monospace;
 }
 
 @media (max-width: 600px) {

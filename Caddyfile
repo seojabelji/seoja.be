@@ -8,7 +8,11 @@ seoja.be, www.seoja.be {
     @server path /server /server/*
     error @server 404
 
-    php_fastcgi 127.0.0.1:9000
+    php_fastcgi 127.0.0.1:9000 {
+        try_files {path} =404
+    }
+
+    redir /favicon.ico /resources/favicon.ico 301
 
     file_server
 

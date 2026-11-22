@@ -24,11 +24,7 @@ seoja.be, www.seoja.be {
         }
     }
 }
-
-mail.seoja.be {
-    reverse_proxy 127.0.0.1:8080
-}
-
+s
 http://seoja.be, http://www.seoja.be, http://mail.seoja.be {
     redir https://{host}{uri} 301
 }

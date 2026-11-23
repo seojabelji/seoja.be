@@ -24,7 +24,7 @@ seoja.be, www.seoja.be {
         }
     }
 }
-s
-http://seoja.be, http://www.seoja.be, http://mail.seoja.be {
+
+http://seoja.be, http://www.seoja.be {
     redir https://{host}{uri} 301
 }
